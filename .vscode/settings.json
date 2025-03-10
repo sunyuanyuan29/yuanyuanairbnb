@@ -1,0 +1,14 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "tsconfig.json": "tsconfig.*.json, README.md,*.json,*.js,.prettierignore,.env,.gitignore,.editorconfig,*.ts,"
+  },
+  "files.exclude": {
+    ".husky": true,
+    "node_modules": true
+  },
+  "tailwindCSS.files.exclude": ["**/.git/**", "**/.hg/**", "**/.svn/**"]
+}
+

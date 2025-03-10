@@ -1,0 +1,9 @@
+/* styles/fonts.css */
+@font-face {
+    font-family: 'Nunito';
+    src: url('/fonts/Nunito-ExtraLightItalic.woff2') format('woff2'),
+         url('/fonts/Nunito-ExtraLightItalic.woff') format('woff');
+    font-weight: 200; /* ExtraLight 通常对应字重 200 */
+    font-style: italic;
+  }
+  
